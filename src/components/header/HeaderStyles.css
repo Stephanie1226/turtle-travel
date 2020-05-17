@@ -1,0 +1,13 @@
+.header-style {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 2vw;
+	letter-spacing: 2.2px;
+	word-spacing: 0px;
+	color: #5b8c85;
+	font-weight: bold;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	text-align: center;
+}

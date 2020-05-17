@@ -1,0 +1,21 @@
+.point-style {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  opacity: 0.9;
+}
+.coor-title {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.7vw;
+	letter-spacing: 0.2px;
+	word-spacing: 1.2px;
+	color: #698474;
+	font-weight: 400;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-align: center;
+}

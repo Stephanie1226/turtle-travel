@@ -1,0 +1,37 @@
+.dl-box {
+  margin: 15px 70px;
+}
+.input-file-container {
+  margin:0 auto;
+  position: relative;
+  width: 225px;
+} 
+.input-file-trigger {
+  display: block;
+  padding: 14px 45px;
+  background: #f09595;
+  color: #fff;
+  font-size: 1em;
+  transition: all .4s;
+  cursor: pointer;
+}
+.input-file {
+  position: absolute;
+  top: 0; left: 0;
+  width: 225px;
+  opacity: 0;
+  padding: 14px 0;
+  cursor: pointer;
+}
+.input-file:hover + .input-file-trigger,
+.input-file:focus + .input-file-trigger,
+.input-file-trigger:hover,
+.input-file-trigger:focus {
+  background: #bd574e;
+  color: #39D2B4;
+}
+.show-msg {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  margin-top: 20px;
+  text-align: center;
+}

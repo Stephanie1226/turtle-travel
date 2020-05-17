@@ -1,0 +1,32 @@
+.reset-box {
+  margin: 15px 70px;
+}
+.reset-container {
+  margin:0 auto;
+  position: relative;
+  width: 225px;
+} 
+.input-reset-trigger {
+  display: block;
+  padding: 14px 45px;
+  background: #baabda;
+  color: #fff;
+  font-size: 1em;
+  transition: all .4s;
+  cursor: pointer;
+}
+.input-reset {
+  position: absolute;
+  top: 0; left: 0;
+  width: 225px;
+  opacity: 0;
+  padding: 14px 0;
+  cursor: pointer;
+}
+.input-reset:hover + .input-reset-trigger,
+.input-reset:focus + .input-reset-trigger,
+.input-reset-trigger:hover,
+.input-reset-trigger:focus {
+  background: #745c97;
+  color: #39D2B4;
+}

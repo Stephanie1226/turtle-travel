@@ -1,0 +1,11 @@
+.button-layout {
+	display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.instruction {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.5vw;
+	color: #393e46;
+}
