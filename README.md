@@ -3,7 +3,7 @@
 * A slighty change in ./node_moduls./victory-line in order to plot the routes.
 
 ## Set up
-- Run the following commands to download the repository and install dependencies:
+- Run the following commands to download the repo and install dependencies:
 
     ```
     $ git clone https://github.com/Stephanie1226/turtle-travel.git
