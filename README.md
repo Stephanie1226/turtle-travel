@@ -4,7 +4,9 @@
 
 ## Set up
 - To download the repository and install dependencies, run the following commands:
+    ```
     git clone https://github.com/Stephanie1226/turtle-travel.git
     cd turtle-travel
     npm install
+    ```
  
