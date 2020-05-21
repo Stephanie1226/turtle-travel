@@ -6,9 +6,9 @@
 - Run the following commands to download the repository and install dependencies:
 
     ```
-    git clone https://github.com/Stephanie1226/turtle-travel.git
-    cd turtle-travel
-    npm install
-    npm start
+    $ git clone https://github.com/Stephanie1226/turtle-travel.git
+    $ cd turtle-travel
+    $ npm install
+    $ npm start
     ```
  
