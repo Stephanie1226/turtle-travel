@@ -4,7 +4,7 @@
 * A slighty change in ./node_moduls./victory-line in order to plot the routes.
 * Flask Backend: https://github.com/Stephanie1226/turtle-travel-backend
 
-## Set up
+## Set up (For running in localhost)
 - Run the following commands to download the repo and install dependencies:
 
     ```
