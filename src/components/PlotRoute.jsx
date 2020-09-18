@@ -20,10 +20,11 @@ const mapDispatchToProps = (dispatch) => {
 
 function PlotRoute ({inputInfo, load_coordinates}) {
   const [coordinates, setCoordinates] = useState([]);
-
+  // const proxyurl = "https://chieh-cors-anywhere.herokuapp.com/";
   //Send the data to backend and get the coordinates
   useEffect(() => {
-    fetch("/calculateroute", {
+    fetch("http://localhost:5000/calculateroute", {
+    //fetch("https://chieh-turtle-backend.herokuapp.com/calculateroute", {
       method:"POST",
       headers:{'Content-Type': 'application/json'},
       body:JSON.stringify(inputInfo)
