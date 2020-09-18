@@ -26,7 +26,10 @@ function PlotRoute ({inputInfo, load_coordinates}) {
     fetch("http://localhost:5000/calculateroute", {
     //fetch("https://chieh-turtle-backend.herokuapp.com/calculateroute", {
       method:"POST",
-      headers:{'Content-Type': 'application/json'},
+      headers:{
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
       body:JSON.stringify(inputInfo)
     })
     .then(response => response.json())

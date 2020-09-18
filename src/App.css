@@ -4,8 +4,20 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+.setup {
+	background-color: antiquewhite;
+	padding: 1% 0 1% 2%;
+	border: 20px 0;
+}
 .instruction {
+	background-color: paleturquoise;
+	padding: 1% 2% 1% 2%;
+}
+.setup, .instruction {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 1.5vw;
 	color: #393e46;
+	text-align: left;
+	width: 900px;
+	margin:0 auto;
 }
