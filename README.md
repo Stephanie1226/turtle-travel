@@ -10,7 +10,6 @@
     ```
     $ git clone https://github.com/Stephanie1226/turtle-travel.git
     $ cd turtle-travel
-    $ npm install
     $ npm start
     ```
  
